@@ -1,0 +1,43 @@
+# 编译生成的文件
+build/
+cmake-build*/
+[Dd]ebug/
+[Rr]elease/
+x64/
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.pdb
+*.ilk
+*.idb
+*.ipch
+*.recipe
+*.tlog/
+*.log
+
+# IDE
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+
+# Reasonix 工具目录
+.reasonix/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
